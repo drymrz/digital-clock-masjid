@@ -55,7 +55,7 @@ foreach ($files as $v) {
             <img src="./img/logo-mds.png" alt="" class="w-[90px]">
             <div class="flex flex-col pl-[2rem]">
                 <h2 class="font-Montagu font-bold text-white text-[2rem]"><span class="text-[#A8BF02]">MASJID</span> DARUSSALAM CENDANA</h2>
-                <!-- <p class="text-white font-thin text-[16px]">PERUMAHAN CENDANA RT 2 RW 36 KEL.BELIAN KEC.BATAM KOTA - KOTA BATAM</p> -->
+                <p class="text-white font-thin text-[16px]">PERUMAHAN CENDANA RT 2 RW 36 KEL.BELIAN KEC.BATAM KOTA - KOTA BATAM</p>
             </div>
         </div>
         <div id="right-header" class="w-[35vw] h-[66px] bg-[#000000bf] flex items-center pr-[24px] justify-end absolute right-0">

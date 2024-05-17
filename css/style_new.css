@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Montagu-Slab";
+    src: url(../fonts/Montagu_Slab/MontaguSlab-VariableFont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont.ttf) format("truetype");
+}
+
+
+
+.font-Montagu{
+    font-family: "Montagu-Slab";
+}
+
+.font-Montserrat{
+    font-family: "Montserrat";
+}

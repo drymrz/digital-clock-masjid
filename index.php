@@ -165,8 +165,8 @@ foreach ($files as $v) {
 		</div>
 	</div>
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/moment-with-locales.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/PrayTimes.js"></script>
 	<script src="js/jquery.marquee.js"></script>
 	<script>
@@ -275,9 +275,9 @@ foreach ($files as $v) {
 				// console.log(app.db);
 
 
-				// let testTime	= moment().add(8,'seconds');
-				// app.runRightCountDown(testTime,'Menuju dzuhur');
-				// app.runFullCountDown(testTime,'iqomah',true);
+				let testTime = moment().add(8, 'seconds');
+				// app.runRightCountDown(testTime, 'Menuju dzuhur');
+				// app.runFullCountDown(testTime, 'iqomah', true);
 				// app.runFullCountDown(testTime,'TEST COUNTER',false);
 				// app.showDisplayAdzan('Dzuhur');
 				// app.showDisplayKhutbah();
@@ -326,6 +326,7 @@ foreach ($files as $v) {
 			},
 			getJadwal: function(jadwalDate) {
 				let times = prayTimes.getTimes(jadwalDate, [lat, lng], timeZone, dst, format);
+				// console.log(times);
 				return times;
 			},
 			showJadwal: function() {
